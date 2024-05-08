@@ -7,8 +7,8 @@ export default defineConfig({
   
   css:{
     modules:{
-      localsConvention: "camalCase" ,
-    }
+      localsConvention: "camlCase" ,
+    },
   },
 
 })
