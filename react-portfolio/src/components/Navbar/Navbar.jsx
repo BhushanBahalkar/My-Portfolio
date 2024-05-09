@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from "./Navbar.module.css"
+import { useState } from 'react'
+import { getImageUrl } from './../../utils';
 
 
 export const Navbar = () => {
@@ -8,6 +10,7 @@ export const Navbar = () => {
     <nav className={styles.Navbar}>
       <a className={styles.title} href="/">Portfolio</a>
       <div className={styles.menu}>
+          <img className={styles.menuBtn} src = {getImageUrl(nav/menuIcon.png)}/>
         <ul className={styles.menuItems}>
           <li>
             <a href="#">About</a>
