@@ -12,7 +12,7 @@ export const Navbar = () => {
       <div className={styles.menu}>
           <img className={styles.menuBtn} src = {getImageUrl(nav/menuIcon.png)}/>
         <ul className={styles.menuItems}>
-          {/* <li>
+          <li>
             <a href="#">About</a>
           </li>
         
@@ -26,7 +26,7 @@ export const Navbar = () => {
 
           <li>
             <a href="#">Contact</a>
-          </li> */}
+          </li>
         </ul>
 
 
