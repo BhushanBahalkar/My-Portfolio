@@ -6,10 +6,10 @@ export default defineConfig({
   plugins: [react()],
   
 
-  css:{
-    modules:{
+  css: {
+    modules: {
       localsConvention:"camelCase",
-    },
-  }
+    },  
+  },
 
 })
