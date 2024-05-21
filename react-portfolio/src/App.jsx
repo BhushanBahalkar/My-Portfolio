@@ -8,9 +8,7 @@ function App() {
   return 
     <div className={styles.App}>
     <Navbar/>
-    </div>
-  
-  
+    </div>  
 }
 
 export default App
